@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 3%;
+}
+.container{
+    text-align: center;
+}
+.toggleIcon{
+    font-size: 1.9rem;
+    margin: auto;
+    background-color: grey;
+    width: 80px;
+    padding: 3px;
+    border-radius: 20px;
+}
+.icon{
+    margin: 4%;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 50%;
+    left: -24%;
+    transition: 1s;
+}
+.active{
+    margin: 4%;
+    position: relative;
+    left: 24%;
+    color: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    transition: 1s;
+}
+ .toggleIcon.active{
+    background-color: steelblue;
+}
